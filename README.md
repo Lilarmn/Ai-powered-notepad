@@ -10,13 +10,23 @@ Syntax Highlighting: Dynamic highlighting for custom syntax patterns.
 Line Numbers: Displays line numbers using TkLineNumbers for better navigation.
 Search & Replace: Full-text search with term highlighting and an option to replace text.
 Font Customization: Adjustable font sizes and styles for a personalized editing experience.
+
 File Operations:
 Create new files.
 Open and save text files with ease.
 Undo/Redo Actions: Simple integration of undo and redo functionality for better control.
+
 Keyboard Shortcuts:
+
 Ctrl + S: Save file.
+
 Ctrl + Shift + '+': Increase font size.
+
 Ctrl + '-': Decrease font size.
+
 Ctrl + F: Search text.
+
 Ctrl + Enter: Trigger IntelliSense.
+
+Ctrl + t : Open audio transcriber
+![image](https://github.com/user-attachments/assets/5d1d50a8-049b-4878-b013-1dd7a93e9cb1)
