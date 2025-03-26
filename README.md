@@ -28,19 +28,20 @@ Ctrl + F: Search text.
 
 Ctrl + Enter: Trigger IntelliSense.
 
+Ctrl + t : Open audio transcriber
 
-Generate text :
+# Generate text :
 ![1](https://github.com/user-attachments/assets/73cf8b29-14f0-4a5d-85c0-b13250b9b299)
 
-#Correct grammar bugs :
+# Correct grammar bugs :
 ![2](https://github.com/user-attachments/assets/6d418784-1fbf-4b4e-b86a-753d88c7bdf9)
 
 
-#Summerize Text :
+# Summerize Text :
 ![3](https://github.com/user-attachments/assets/d70439ba-ce4f-4128-9498-ef7f46ab7cec)
 
-#today date :
+# today date :
 ![4](https://github.com/user-attachments/assets/0666e1cf-4dbf-499a-b483-c06f57718114)
 
-Ctrl + t : Open audio transcriber
+# Audio transcriber:
 ![image](https://github.com/user-attachments/assets/5d1d50a8-049b-4878-b013-1dd7a93e9cb1)
