@@ -26,7 +26,7 @@ def SendRequestToAPi(action:str ,text : str):
     llm = ChatOpenAI(
         base_url=base_url,
         name=model_name,
-        api_key="YOUR_API_KEY",
+        api_key="",
     )
 
     response = dict(llm.invoke(templates[action] + text)).get('content',"timed out")

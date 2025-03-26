@@ -7,6 +7,7 @@ from tkinter import ttk
 from Intellisense import textIq
 import re
 from SearchFrame import SearchWindow
+from TranscribFrame import AudioRecorderApp
 
 
 class App(ct.CTk):
@@ -134,6 +135,7 @@ class App(ct.CTk):
         self.text_box.bind("<Control-minus>", lambda event: self.change_font_size(-2))
         self.text_box.bind("<Control-Return>",self.intellisense)
         self.text_box.bind("<Control-f>",self.open_search_window)
+        self.text_box.bind("<Control-t>",self.open_transcribe_window)
 
         # Redraw line numbers whenever the text is modified
         self.text_box.bind(
@@ -207,6 +209,10 @@ class App(ct.CTk):
         search_window = SearchWindow(self)
         search_window.mainloop()
 
+    def open_transcribe_window(self,event=None):
+        self.AudioRecorder = AudioRecorderApp(self)
+        self.AudioRecorder.mainloop()
+
     def replace_all(self, search_term,new_term):
         print(f"Searching for: {search_term}")
         # Example: Highlight search term in the editor
@@ -215,6 +221,8 @@ class App(ct.CTk):
             self.text_box.delete("1.0", tk.END)  # Clear the textbox
             self.text_box.insert(tk.END, new_text)
 
+    def insert_transcribe_text(self,text):
+        self.text_box.insert(tk.END, text)
 
 def run():
     app = App()
